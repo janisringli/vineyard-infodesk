@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.aboutUs__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 144px;
+  padding-top: 169px;
+  padding-bottom: 169px;
+  padding-left: 117px;
+  background-color: #e5e5e5;
+}
+.wrapper__card {
+  height: 743px;
+  width: 466px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+.card__content {
+}
+.content__title {
+  padding-top: 102px;
+  padding-left: 119px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+}
+.content__text {
+  padding-left: 99px;
+  padding-right: 99px;
+  padding-bottom: 50px;
+  height: 200px;
+}
+.content__qrBox {
+  width: 260px;
+  height: 260px;
+  border-radius: 50px;
+  background-color: #f4f4f4;
+  margin-left: 103px;
+  margin-right: 103px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 90px;
+}
+.qrBox__code {
+  padding: 41px;
+}
+.qr-code {
+  height: 178px;
+  width: 178px;
+}

@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="verse.css" />
+    <title>Daily Verse</title>
+  </head>
+  <body>
+    <div class="home">
+        <img onclick="window.location.href = '/index.html';" src="/assets/svg/home.svg" alt="home" class="home-icon"></img>
+    </div>
+    <div class="verse__wrapper">
+      <div class="wrapper__content">
+        <div class="content__card">
+          <div class="daily-vers">Tages Vers</div>
+          <div class="intro">
+            Sei gespannt was Gott Heute für dich bereit hat
+          </div>
+          <div class="card__content">
+            <div class="content__field">
+              <div class="dailyVerse">
+                <div id="verse">
+                  
+                </div>
+                <div id="reference"></div>
+              </div>
+              <script
+                src="/verse/verse.js"
+              ></script>
+            </div>
+          </div>
+        </div>
+        <div class="content__card">
+        <div class="daily-vers">Zufälliger Vers</div>
+        <button class="reload" onclick="reload()"><img src="/assets/svg/reload.svg" alt=""> </button>
+        <div class="intro">
+          Sei gespannt was Gott Heute für dich bereit hat
+        </div>
+        <div class="card__content">
+          <div class="content__field">
+            <div id="dailyVersesWrapper">
+              <div class="error-text">
+                The Lord is my shepherd, I lack nothing. He makes me lie down
+                in green pastures, he leads me beside quiet waters, he
+                refreshes my soul. He guides me along the right paths for his
+                name’s sake. Even though I walk through the darkest valley, I
+                will fear no evil, for you are with me;
+              </div>
+              <div class="error-verse">Psalm 23:1-4</div>
+            </div>
+            <script
+              async
+              defer
+              src="https://dailyverses.net/get/random.js?language=lut"
+            ></script>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.home {
+  position: relative;
+}
+.home-icon {
+  position: absolute;
+  top: 50;
+  left: 50;
+}
+.verse__wrapper {
+  background-color: #ebe9e9;
+  height: 100vh;
+}
+.wrapper__content {
+  padding: 169px 110px 169px 110px;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.content__card {
+  background-color: #ffffff;
+  border-radius: 30px;
+  height: 743px;
+  width: 880px;
+  position: relative;
+}
+.card__content {
+}
+.content__field {
+  margin-top: 20px;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #e8e8e8;
+  border-radius: 30px;
+  min-height: 120px;
+}
+.content__field::-webkit-scrollbar {
+  display: none;
+}
+.daily-vers {
+  font-weight: 700;
+  font-size: 28px;
+  padding-left: 72px;
+  padding-top: 68px;
+}
+.dailyVerses.bibleVerse {
+  margin-top: 0.5em;
+}
+.dailyVerses.bibleText {
+  padding: 0px 50px 50px 50px;
+  font-size: 24px;
+  text-align: center;
+}
+.dailyVerses.bibleVerse a {
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  font-size: 20px;
+}
+.dailyVerses.bibleVerse {
+  padding-bottom: 40px;
+  text-align: center;
+}
+.intro {
+  padding-left: 72px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.error-text {
+  padding: 0px 50px 50px 50px;
+  font-size: 24px;
+  text-align: center;
+}
+.error-verse {
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  font-size: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#verse {
+  padding: 0px 50px 50px 50px;
+  font-size: 24px;
+  text-align: center;
+}
+#reference {
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  width: 100%;
+  font-size: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.reload {
+  position: absolute;
+  right: 117;
+  top: 86;
+  background: transparent;
+  border: none;
+  transform: rotate(360deg);
+  transition: transform 0.5s;
+}
+.reload:active {
+  transform: rotate(0deg);
+  transition: 0s;
+}

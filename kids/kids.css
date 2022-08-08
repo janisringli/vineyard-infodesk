@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.home {
+  position: relative;
+}
+.home-icon {
+  position: absolute;
+  top: 50;
+  left: 50;
+}
+.kids__wrapper {
+  background-color: #efefef;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 89px;
+  padding-top: 169px;
+  border: solid 1px red;
+}
+.wrapper__content {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+}
+.content__card {
+  width: 429px;
+  height: 822px;
+  background: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 55px;
+}
+.card__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #727070;
+  padding-left: 65px;
+  padding-top: 52px;
+}
+.card__icon {
+  position: relative;
+}
+#baby {
+  position: absolute;
+  width: 230px;
+  height: 257px;
+  top: 338px;
+  left: 99px;
+  transition: 1s ease;
+}
+#bigBaby {
+  position: absolute;
+  width: 230px;
+  height: 312px;
+  top: 283px;
+  left: 99px;
+  transition: 1s ease;
+}
+#smallPerson {
+  position: absolute;
+  width: 258px;
+  height: 407px;
+  top: 198px;
+  left: 85px;
+  transition: 1s ease;
+}
+#person {
+  position: absolute;
+  width: 277px;
+  height: 468px;
+  top: 137px;
+  left: 76px;
+  transition: 1s ease;
+}
+
+.card__info {
+  padding-left: 65px;
+  padding-top: 425px;
+  width: 305px;
+  height: 339px;
+  display: flex;
+  flex-direction: column;
+}
+.card-text {
+  display: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+#hideBaby {
+  transition: 0.5s;
+  opacity: 0;
+}
+#hideBigBaby {
+  transition: 0.5s;
+  opacity: 0;
+}
+#hideSmallPerson {
+  transition: 0.5s;
+  opacity: 0;
+}
+#hidePerson {
+  transition: 0.5s;
+  opacity: 0;
+}
+.info-names {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 10px;
+}
+
+.info-images {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+}
+
+.images-image {
+  background: #f4f4f4;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 49px;
+  width: 139px;
+  height: 198px;
+}

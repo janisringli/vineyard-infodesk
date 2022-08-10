@@ -17,5 +17,5 @@ jobs:
           state-name: .htsync
           server: sl203.web.hostpoint.ch
           port: 21
-          username: git@nisringli.ch
+          username: git@janisringli.ch
           password: ${{ secrets.FTP_PASSWORD }}

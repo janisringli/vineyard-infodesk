@@ -11,7 +11,7 @@ function babyUp() {
     document.getElementById("baby").style.width = "230px";
     document.getElementById("baby").style.height = "257px";
     document.getElementById("hideBaby").style.opacity = "0";
-  }, 3000);
+  }, 30000);
 }
 function bigBabyUp() {
   document.getElementById("bigBaby").style.top = "209px";
@@ -25,7 +25,7 @@ function bigBabyUp() {
     document.getElementById("bigBaby").style.width = "230px";
     document.getElementById("bigBaby").style.height = "312px";
     document.getElementById("hideBigBaby").style.opacity = "0";
-  }, 3000);
+  }, 30000);
 }
 function smallPersonUp() {
   document.getElementById("smallPerson").style.top = "147px";
@@ -39,7 +39,7 @@ function smallPersonUp() {
     document.getElementById("smallPerson").style.width = "258px";
     document.getElementById("smallPerson").style.height = "407px";
     document.getElementById("hideSmallPerson").style.opacity = "0";
-  }, 3000);
+  }, 30000);
 }
 function personUp() {
   document.getElementById("person").style.top = "112px";
@@ -53,5 +53,5 @@ function personUp() {
     document.getElementById("person").style.width = "277px";
     document.getElementById("person").style.height = "468px";
     document.getElementById("hidePerson").style.opacity = "0";
-  }, 3000);
+  }, 30000);
 }

@@ -12,22 +12,15 @@
   left: 50;
 }
 
-.home__wrapper {
-  padding-top: 125px;
-  padding-left: 176px;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.home__wrapper:active {
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 .aboutUs__wrapper {
   display: flex;
   flex-direction: row;
   gap: 144px;
   padding-top: 169px;
-  padding-bottom: 169px;
+  padding-bottom: 168px;
   padding-left: 117px;
   background-color: #e5e5e5;
+  overflow: hidden;
 }
 .wrapper__card {
   height: 743px;

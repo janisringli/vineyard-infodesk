@@ -33,6 +33,7 @@
 .content__field {
   margin-top: 20px;
   overflow: hidden;
+  height: 450px;
   margin-left: 50px;
   margin-right: 50px;
   background-color: #e8e8e8;
